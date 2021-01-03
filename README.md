@@ -1,0 +1,1 @@
+# All-In-1-Journal-Frontend
