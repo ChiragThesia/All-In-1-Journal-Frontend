@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 const loginProcess = ()=>{
-    axios.get("http://localhost:8080/").then((res:any)=>{ 
+    axios.get("http://localhost:8080/login").then((res:any)=>{ 
         const data:any = res.data
         console.log(data)
         return data
