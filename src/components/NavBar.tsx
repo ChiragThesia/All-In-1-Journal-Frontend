@@ -37,7 +37,7 @@ const NavBar = () => {
             <AppBar position="static">
                 <Toolbar>
                     <Typography variant="h6" className={classes.title}>
-                        Welcome to you Journal!
+                        Welcome to you Journal! Does this work? 
                     </Typography>
                     <Button color="inherit" onClick={loginProcess}>Login</Button>
                 </Toolbar>
